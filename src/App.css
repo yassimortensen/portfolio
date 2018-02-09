@@ -1,0 +1,278 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 0.25vw solid #fff;
+    box-shadow: 0 0 0 0.25vw black;
+    width: 15vw;
+    margin-top: -5vw;
+    position: relative;
+}
+
+.icon {
+  color: black;
+  font-size: 2vw;
+}
+
+.code {
+  display: inline-block;
+  margin-bottom: -2vw;
+  font-size: 3vw;
+}
+
+.name{
+  font-family:'Dancing Script';
+  display: inline-block;
+  padding-left: 1%;
+  font-size: 6vw;
+  margin-bottom: -2vw;
+  position: relative;
+}
+
+.hello{
+  font-size: 3.2vw;
+}
+
+.intro{
+  font-size: 1.6vw;
+}
+
+.icon:hover{
+  color: grey;
+}
+
+.language {
+  font-family: 'Open Sans';
+}
+
+.language-text {
+  font-size: 1.2vw;
+  padding: 1vw;
+}
+
+li {
+  font-size: 1.3vw;
+}
+
+.project-info {
+  font-size: 1.5vw;
+  padding: 1%;
+}
+
+.project-tech {
+  font-size:1.25vw;
+  font-style: italic;
+}
+
+.project-component-title{
+  font-size: 3vw;
+  border-bottom: 0.4vw dotted #C4C4C4;
+}
+
+.project-title{
+  font-size:2vw;
+}
+
+.youtube{
+  display:inline-block;
+  width: 10% !important;
+  color:red;
+  padding-top: 1%;
+  font-size: 3vw;
+}
+
+.github {
+  display:inline-block;
+  width: 10% !important;
+  color:black;
+  padding-top: 1%;
+  font-size: 3vw;
+}
+
+.closing {
+  background-color: #B5DBB4;
+  font-family: 'Roboto Slab';
+  padding: 2%;
+}
+
+.work-together{
+  font-size:2.5vw;
+}
+
+.accepting {
+  font-size: 1.5vw;
+}
+
+.footer {
+  font-family: 'Roboto Slab';
+  padding: 1%;
+}
+
+.masthead {
+  padding: 1%;
+  font-size: 1.2vw;
+}
+
+#gameOfDeThrones{
+  transform: scale(1,1.1);
+  margin: 1.5%;
+}
+
+.language-icon {
+  font-size: 3vw;
+}
+
+.javascript-icon {
+  font-size: 4vw;
+}
+
+.arrow {
+  font-size: 2vw;
+}
+
+.arrow:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    color: black;
+    font-size: 4vw;
+  }
+  .code {
+    display: inline-block;
+    margin-bottom: -2vw;
+    font-size: 5vw;
+  }
+  .name {
+    font-family:'Dancing Script';
+    display:inline-block;
+    padding-left: 1%;
+    font-size:12vw;
+    margin-bottom:-0.4em;
+    position: relative;
+  }
+  .img-circle {
+    border-radius: 50%;
+    border: 0.25vw solid #fff;
+    box-shadow: 0 0 0 0.25vw black;
+    width: 20vw;
+    margin-top: -5vw;
+    position: relative;
+  }
+  .hello {
+    font-size: 7vw;
+  }
+  .intro{
+    font-size: 4vw;
+  }
+  .language-text {
+    font-size: 3vw;
+  }
+  li {
+    font-size: 3vw;
+  }
+  .language-icon {
+    font-size: 6vw;
+  }
+  .javascript-icons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .grid-icon{
+    align-self: center;
+    justify-self: center;
+  }
+  .javascript-icon {
+    font-size: 6vw;
+  }
+  .project-component-title{
+    font-size: 4.5vw;
+    border-bottom: none;
+  }
+  .project-title{
+    font-size:3.5vw;
+  }
+  .project-info {
+    font-size: 3vw;
+    padding: 1%;
+  }
+  .project-tech {
+    font-size:3vw;
+  }
+  .project {
+    border-top: 0.5vw dashed #C4C4C4;
+  }
+  .youtube{
+    font-size: 7vw;
+    padding-top: 2%;
+    width: 8% !important;
+  }
+  .github{
+    font-size: 7vw;
+    padding-top: 2%;
+    width: 8% !important;
+  }
+  .work-together{
+    font-size:5vw;
+  }
+  .accepting {
+    font-size: 3.5vw;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .tell-me{
+    padding-bottom: 0;
+  }
+  .masthead {
+    font-size: 3vw;
+  }
+}
+
+/*.grow {
+  transition: all 5s ease-in-out;
+}*/
+
+/*.grow {
+  overflow:hidden;
+  transition:height 3s ease-out;
+  height:auto;
+}*/
+
+/*.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
