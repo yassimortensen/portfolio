@@ -2,7 +2,7 @@
   "name": "r",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yassimortensen.github.io/yassi-portfolio-site",
+  "homepage": "http://yassimortensen.github.io/portfolio",
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "react-scripts": "0.8.4"

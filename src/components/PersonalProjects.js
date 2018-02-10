@@ -127,7 +127,7 @@ class PersonalProjects extends Component {
               </a>
               <p className="project-info">A social media site for finding adorable pet instagram accounts to follow and enjoy</p>
               <p className="project-tech">Technologies used:</p>
-              <p className="project-tech">Ruby onRails, Git, Git branches, Nokogiri, and Bootstrap </p>
+              <p className="project-tech">Ruby on Rails, Git, Nokogiri, and Bootstrap </p>
             </div>
             <div className="w3-half project" style={{padding:'2%'}}>
               <p className="project-title">Game of DeThrones</p>
@@ -145,7 +145,7 @@ class PersonalProjects extends Component {
               </a>
               <p className="project-info">A Game of Thrones parody game where the user can choose their own adventure</p>
               <p className="project-tech">Technologies used:</p>
-              <p className="project-tech">Vanilla Javascript, Git, Git branches, Nokogiri, Bootstrap, CSS animations</p>
+              <p className="project-tech">Vanilla Javascript, Git, Nokogiri, Bootstrap, CSS animations</p>
             </div>
           </div>
         </div>
