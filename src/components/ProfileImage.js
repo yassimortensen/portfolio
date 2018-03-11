@@ -7,19 +7,30 @@ class ProfileImage extends Component {
     super();
 
     this.state = {
-      image: null
+      image: null,
+      className: null
     }
   }
 
   componentDidMount(){
     this.setState({
-      image: profileImage
+      image: profileImage,
+      className: "img-circle"
     })
   }
 
   render(){
+
+    let className;
+
+    if (this.state.image){
+      className = "img-circle"
+    } else {
+      className = null
+    }
+
     return (
-      <img alt="" src={this.state.image} className="img-circle" style={{display:'inline-block'}}/>
+      <img alt="" src={this.state.image} className={className} style={{display:'inline-block'}}/>
     )
   }
 }
