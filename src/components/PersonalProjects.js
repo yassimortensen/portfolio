@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
-import AccountableGif from './AccountableGIF.gif';
-import AccountableStill from './AccountableStill.png';
-import BlushGif from './BlushGIF.gif';
-import BlushStill from './BlushStill.png'
-import gameOfDeThronesGif from './GOTGif.gif';
-import gameOfDeThronesStill from './GOTStill.png';
-import cuddlegramGif from './CuddlegramGIF(2).gif';
-import cuddlegramStill from './CuddlegramStill.png'
+import AccountableGif from './GIFs/AccountableGIF.gif';
+import AccountableStill from './images/AccountableStill.png';
+import BlushGif from './GIFs/BlushGIF.gif';
+import BlushStill from './images/BlushStill.png'
+import gameOfDeThronesGif from './GIFs/GOTGif.gif';
+import gameOfDeThronesStill from './images/GOTStill.png';
+import cuddlegramGif from './GIFs/CuddlegramGIF(2).gif';
+import cuddlegramStill from './images/CuddlegramStill.png'
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faYoutubeSquare } from '@fortawesome/fontawesome-free-brands'

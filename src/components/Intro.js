@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
-import typingImage from './domenico-loia-310197.jpg'
-import profileImage from './profile-image.JPG'
+import typingImage from './images/domenico-loia-310197.jpg'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare, faMediumM } from '@fortawesome/fontawesome-free-brands'
 import { faFileAlt } from '@fortawesome/fontawesome-free-regular'
+
+import ProfileImage from './ProfileImage.js'
 
 class Intro extends Component {
   render() {
@@ -19,7 +20,7 @@ class Intro extends Component {
         <a className="icon" href="https://docs.google.com/presentation/d/1PqcB0LwDTbAtC4G-sAPRG8EJq7Zag_SToaOVDNSMugQ/edit?usp=sharing">
           <FontAwesomeIcon icon={faFileAlt} style={{display:'inline-block', width:'10%'}}/>
         </a>
-        <img alt="" src={profileImage} className="img-circle" style={{display:'inline-block'}}/>
+        <ProfileImage />
         <a className="icon" href="https://github.com/yassimortensen">
           <FontAwesomeIcon icon={faGithubSquare} style={{display:'inline-block', width:'10%'}}/>
         </a>
