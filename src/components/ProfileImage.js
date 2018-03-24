@@ -6,8 +6,7 @@ class ProfileImage extends Component {
   render(){
 
     return (
-      <div className="img-circle" style={{display:'inline-block'}}>
-      </div>
+      <img alt="" src={profileImage} className="img-circle" style={{display:'inline-block'}}/>
     )
   }
 }

@@ -13,9 +13,9 @@
     border: 0.25vw solid #fff;
     box-shadow: 0 0 0 0.25vw black;
     width: 15vw;
+    height: 15vw;
     margin-top: -5vw;
     position: relative;
-    background-image: url('./components/images/profile-image.JPG');
 }
 
 .icon {
