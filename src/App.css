@@ -8,6 +8,12 @@
   grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
+.background-image {
+  width: 100vw;
+  height: 39vw;
+  display: inline-block;
+}
+
 .img-circle {
     border-radius: 50%;
     border: 0.25vw solid #fff;
