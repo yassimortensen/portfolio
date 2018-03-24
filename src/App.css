@@ -15,6 +15,7 @@
     width: 15vw;
     margin-top: -5vw;
     position: relative;
+    background-image: url('./components/images/profile-image.JPG');
 }
 
 .icon {
