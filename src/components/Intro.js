@@ -13,7 +13,7 @@ class Intro extends Component {
       <div style={{fontFamily:'Roboto Slab', paddingBottom:'1%'}}>
         <h1 className="code">code with</h1>
         <h1 className="name">yassi</h1>
-        <img alt="" src={typingImage} style={{width: "100vw", display:'inline-block'}} />
+        <img alt="" src={typingImage} style={{width: "100vw", height: "39vw", display:'inline-block'}} />
         <a className="icon" href="https://www.linkedin.com/in/yassimortensen/">
           <FontAwesomeIcon icon={faLinkedin} style={{display:'inline-block', width:'10%'}}/>
         </a>
